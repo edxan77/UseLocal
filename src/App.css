@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(139, 232, 232);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.inp{
+    margin-left: 550px;
+    margin-top: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(239, 252, 0, 0.37);
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    margin-left: 520px;
+    margin-top:20px ;
+    border:2px solid rgb(5, 4, 4);
+    width:300px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+.btnclear{
+    margin-left: 640px;
+    margin-top:20px;
+    background-color: black;
+    color: white;
+    border:2px solid yellow;
+    border-radius: 6px;
+    
+}
+.btnclearhide{
+    opacity: 0;
+    
+}
+
+.btnadd{
+    background-color: yellow;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
